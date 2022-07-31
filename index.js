@@ -20,4 +20,6 @@ function create() {
         "\nRequest you to please confirm if we need to refund the amount of USD "+total+" or apply towards future invoices.\nBanking Details:\n\nAppreciate your prompt response\nThanks & Regards,\nSnehalatha Makkena |FinOps Analyst AR | AWS Cash\nApplications\n\nWork hard. Have fun. Make history.";
     console.log(name );
     document.getElementById("final-txt").innerText = txt;
+    
+  navigator.clipboard.writeText(txt);
 }
